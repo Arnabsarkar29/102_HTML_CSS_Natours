@@ -113,7 +113,7 @@ body {
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
-    animation: moveInLeft 1s;
+    animation: moveInLeft 1s 0.2s backwards;
     backface-visibility: hidden;
   }
   &__sub {
@@ -121,7 +121,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.5px;
-    animation: moveInRight 1s 0.1s;
+    animation: moveInRight 1s 0.3s backwards;
     backface-visibility: hidden;
   }
 }
@@ -138,7 +138,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     position: relative;
-    animation: moveInBottom 0.5s ease-out 0.75s backwards;
+    animation: moveInBottom 0.5s ease-out 1.05s backwards;
   }
   &:hover {
     transform: translateY(-3px);
